@@ -103,9 +103,6 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
-         'email' => [
-        'required' => '邮箱地址不能为空！',
-    ]
     ],
 
     /*
@@ -118,7 +115,6 @@ return [
     | of "email". This simply helps us make messages a little cleaner.
     |
     */
-
 
     'attributes' => [],
 
