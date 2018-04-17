@@ -28,15 +28,14 @@ class Model extends EloquentModel
         // 此时会自动触发框架对数据模型 updated_at 时间戳的更新
         return $query->orderBy('updated_at', 'desc');
     }
-
     public function scopeRecent($query)
     {
-        // 按照创建时间排序
-        return $query->orderBy('created_at', 'desc');
+        return $query->orderBy('id', 'desc');
     }
     public function link($params = [])
     {
         return route('topics.show', array_merge([$this->id, $this->slug], $params));
     }
+
 
 }
