@@ -36,9 +36,11 @@ return array(
      *      'Analytics' => ['E-Commerce' => 'page.pages.analytics'],
      *  ]
      */
-    'menu' => [
+  'menu' => [
         '用户与权限' => [
             'users',
+            'roles',
+            'permissions',
         ],
     ],
 
