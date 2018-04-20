@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
 use App\Models\Category;
 use Auth;
+use App\Models\User;
 use App\Handlers\ImageUploadHandler;
 
 
@@ -44,10 +45,12 @@ class TopicsController extends Controller
         }
         return $data;
     }
-     public function index(Request $request, Topic $topic)
+     public function index(Request $request, Topic $topic, User $user)
     {
         $topics = $topic->withOrder($request->order)->paginate(20);
-        return view('topics.index', compact('topics'));
+        $active_users = $user->getActiveUsers();
+        // dd($active_users);
+        return view('topics.index', compact('topics', 'active_users'));
     }
     public function show(Request $request, Topic $topic)
     {
