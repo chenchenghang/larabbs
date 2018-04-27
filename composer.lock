@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b3dcb76432600cc9225a7832eff25d2",
+    "content-hash": "f053346b175fd4e4a8b767151209c4c2",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -71,16 +71,16 @@
         },
         {
             "name": "caouecs/laravel-lang",
-            "version": "3.0.46",
+            "version": "3.0.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "6d7d0bf583a63cf091728f50067880f122e24fbd"
+                "reference": "9d618e137c4fd4a8e4556a69ab884aa0c413417c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/6d7d0bf583a63cf091728f50067880f122e24fbd",
-                "reference": "6d7d0bf583a63cf091728f50067880f122e24fbd",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/9d618e137c4fd4a8e4556a69ab884aa0c413417c",
+                "reference": "9d618e137c4fd4a8e4556a69ab884aa0c413417c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -115,7 +115,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2018-03-29T11:49:02+00:00"
+            "time": "2018-04-24T11:50:34+00:00"
         },
         {
             "name": "ckeditor/ckeditor",
@@ -1678,16 +1678,16 @@
         },
         {
             "name": "mews/captcha",
-            "version": "2.1.8",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mewebstudio/captcha.git",
-                "reference": "5482c80def107c3ad149a64f13c46ebe9725f261"
+                "reference": "c9885e31bb2c30fe185c1af6078a53a3bef5db8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mewebstudio/captcha/zipball/5482c80def107c3ad149a64f13c46ebe9725f261",
-                "reference": "5482c80def107c3ad149a64f13c46ebe9725f261",
+                "url": "https://api.github.com/repos/mewebstudio/captcha/zipball/c9885e31bb2c30fe185c1af6078a53a3bef5db8f",
+                "reference": "c9885e31bb2c30fe185c1af6078a53a3bef5db8f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1747,7 +1747,7 @@
                 "laravel5 Captcha",
                 "laravel5 Security"
             ],
-            "time": "2018-02-28T12:36:07+00:00"
+            "time": "2018-04-25T13:44:49+00:00"
         },
         {
             "name": "mews/purifier",
@@ -2790,16 +2790,16 @@
         },
         {
             "name": "spatie/laravel-permission",
-            "version": "2.12.0",
+            "version": "2.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "666e19211a036a608806489adf5d7e8249938d31"
+                "reference": "c352d83ecb5efb2d68169a1de7b7e263135ad807"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/666e19211a036a608806489adf5d7e8249938d31",
-                "reference": "666e19211a036a608806489adf5d7e8249938d31",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/c352d83ecb5efb2d68169a1de7b7e263135ad807",
+                "reference": "c352d83ecb5efb2d68169a1de7b7e263135ad807",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2856,7 +2856,7 @@
                 "security",
                 "spatie"
             ],
-            "time": "2018-04-22T22:06:50+00:00"
+            "time": "2018-04-23T19:06:39+00:00"
         },
         {
             "name": "summerblue/administrator",
