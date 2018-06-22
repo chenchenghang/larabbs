@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cakephp/chronos",
-            "version": "1.1.4",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
-                "reference": "85bcaea6a832684b32ef54b2487b0c14a172e9e6"
+                "reference": "a0293d2cd157d1b47844f882a65a9cba11a72c72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/chronos/zipball/85bcaea6a832684b32ef54b2487b0c14a172e9e6",
-                "reference": "85bcaea6a832684b32ef54b2487b0c14a172e9e6",
+                "url": "https://files.phpcomposer.com/files/cakephp/chronos/a0293d2cd157d1b47844f882a65a9cba11a72c72.zip",
+                "reference": "a0293d2cd157d1b47844f882a65a9cba11a72c72",
                 "shasum": ""
             },
             "require": {
@@ -25,15 +25,15 @@
             },
             "require-dev": {
                 "athletic/athletic": "~0.1",
-                "cakephp/cakephp-codesniffer": "~2.3",
+                "cakephp/cakephp-codesniffer": "^3.0",
                 "phpbench/phpbench": "@dev",
                 "phpstan/phpstan": "^0.6.4",
-                "phpunit/phpunit": "<6.0"
+                "phpunit/phpunit": "<6.0 || ^7.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Cake\\Chronos\\": "src"
+                    "Cake\\Chronos\\": "src/"
                 },
                 "files": [
                     "src/carbon_compat.php"
@@ -61,7 +61,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-01-13T12:19:50+00:00"
+            "time": "2018-06-21T02:02:26+00:00"
         },
         {
             "name": "caouecs/laravel-lang",
@@ -1591,16 +1591,16 @@
         },
         {
             "name": "laravel/horizon",
-            "version": "v1.2.3",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/horizon.git",
-                "reference": "36ef9e2d6e09e617cf801050326a69e876ff5535"
+                "reference": "342c4ddf6dda7c7ed21e57566f202b96e28afb6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/horizon/zipball/36ef9e2d6e09e617cf801050326a69e876ff5535",
-                "reference": "36ef9e2d6e09e617cf801050326a69e876ff5535",
+                "url": "https://files.phpcomposer.com/files/laravel/horizon/342c4ddf6dda7c7ed21e57566f202b96e28afb6b.zip",
+                "reference": "342c4ddf6dda7c7ed21e57566f202b96e28afb6b",
                 "shasum": ""
             },
             "require": {
@@ -1655,7 +1655,7 @@
                 "laravel",
                 "queue"
             ],
-            "time": "2018-03-13T18:00:18+00:00"
+            "time": "2018-06-21T09:19:40+00:00"
         },
         {
             "name": "laravel/socialite",
@@ -2423,16 +2423,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.29.2",
+            "version": "1.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "ed6aa898982f441ccc9b2acdec51490f2bc5d337"
+                "reference": "863a1a651ea324e1838da3a52753a4239b9d4bea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/briannesbitt/Carbon/ed6aa898982f441ccc9b2acdec51490f2bc5d337.zip",
-                "reference": "ed6aa898982f441ccc9b2acdec51490f2bc5d337",
+                "url": "https://files.phpcomposer.com/files/briannesbitt/Carbon/863a1a651ea324e1838da3a52753a4239b9d4bea.zip",
+                "reference": "863a1a651ea324e1838da3a52753a4239b9d4bea",
                 "shasum": ""
             },
             "require": {
@@ -2467,7 +2467,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-05-29T15:23:46+00:00"
+            "time": "2018-06-15T11:52:26+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2522,16 +2522,16 @@
         },
         {
             "name": "overtrue/easy-sms",
-            "version": "1.0.10",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/easy-sms.git",
-                "reference": "9c1d04a607c7aabc9f427b6da591d2a1d8b73726"
+                "reference": "1c08e5a2d7ec519449733ab7dd58daaf9ecc3fd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/overtrue/easy-sms/9c1d04a607c7aabc9f427b6da591d2a1d8b73726.zip",
-                "reference": "9c1d04a607c7aabc9f427b6da591d2a1d8b73726",
+                "url": "https://files.phpcomposer.com/files/overtrue/easy-sms/1c08e5a2d7ec519449733ab7dd58daaf9ecc3fd3.zip",
+                "reference": "1c08e5a2d7ec519449733ab7dd58daaf9ecc3fd3",
                 "shasum": ""
             },
             "require": {
@@ -2559,7 +2559,7 @@
                 }
             ],
             "description": "The easiest way to send short message.",
-            "time": "2018-06-07T08:43:03+00:00"
+            "time": "2018-06-14T13:33:57+00:00"
         },
         {
             "name": "overtrue/laravel-lang",
@@ -3359,16 +3359,16 @@
         },
         {
             "name": "summerblue/administrator",
-            "version": "v1.1.7",
+            "version": "v1.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/summerblue/administrator.git",
-                "reference": "e775635f3d1d462ae88aaf2d080be863df3a5d54"
+                "reference": "22869b39e471dcf43dd7eca7fd4839cc3836f14e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/summerblue/administrator/zipball/e775635f3d1d462ae88aaf2d080be863df3a5d54",
-                "reference": "e775635f3d1d462ae88aaf2d080be863df3a5d54",
+                "url": "https://files.phpcomposer.com/files/summerblue/administrator/22869b39e471dcf43dd7eca7fd4839cc3836f14e.zip",
+                "reference": "22869b39e471dcf43dd7eca7fd4839cc3836f14e",
                 "shasum": ""
             },
             "require": {
@@ -3416,7 +3416,7 @@
                 "laravel",
                 "laravel-administrator"
             ],
-            "time": "2018-02-27T01:14:55+00:00"
+            "time": "2018-06-17T04:15:56+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

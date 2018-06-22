@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "a98df7a4-bf84-4eba-9d76-52386a5f2628",
+		"_postman_id": "ecd33834-acee-443d-9e2f-ec400ca2a935",
 		"name": "larabbs",
 		"description": "larabbs 教程接口",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -21,13 +21,11 @@
 								{
 									"key": "captcha_key",
 									"value": "captcha-2GQOAQupTLWN36Q",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "captcha_code",
 									"value": "pk6p7",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -57,25 +55,21 @@
 								{
 									"key": "verification_key",
 									"value": "verificationCode_CjZ41ISXMSThLKI",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "verification_code",
 									"value": "1234",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "name",
 									"value": "cch11",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "password",
 									"value": "1234561",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -105,7 +99,6 @@
 								{
 									"key": "phone",
 									"value": "18324254558",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -135,13 +128,11 @@
 								{
 									"key": "access_token",
 									"value": "10_HYqg2X11x2OVWgC9H4RSq_fLNu0q9jMGZUaOiw0uQZmBpN-f_wO52JgGQo03rN7w6yzxzcSNgLGqemhz_13LCA",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "openid",
 									"value": "oJX820Wp1-JOr1Msm1ikLVF54VEs",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -184,13 +175,11 @@
 								{
 									"key": "username",
 									"value": "foo1@bar.com",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "password",
 									"value": "password",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -229,7 +218,10 @@
 								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhYmJzLnRlc3RcL2FwaVwvYXV0aG9yaXphdGlvbnMiLCJpYXQiOjE1MjkwNDM2MzAsImV4cCI6MTUyOTA0NzIzMCwibmJmIjoxNTI5MDQzNjMwLCJqdGkiOiJWUVhpRFZnV0tMM0lYR0lFIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.VmVeM6MC0J2FDauapFyPaP9VY-DqAmNJEQyS05QDxuM"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "http://{{host}}/api/authorizations/current",
 							"protocol": "http",
@@ -260,7 +252,10 @@
 						},
 						"method": "PUT",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "http://{{host}}/api/authorizations/current",
 							"protocol": "http",
@@ -291,7 +286,10 @@
 						},
 						"method": "GET",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "http://{{host}}/api/user",
 							"protocol": "http",
@@ -327,25 +325,21 @@
 								{
 									"key": "avatar_image_id",
 									"value": "2",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "introduction",
 									"value": "123",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "email",
 									"value": "foo1@bar.com",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "name",
 									"value": "CCCCC1",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -391,13 +385,11 @@
 								{
 									"key": "image",
 									"value": "",
-									"description": "",
 									"type": "file"
 								},
 								{
 									"key": "type",
 									"value": "avatar",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -427,7 +419,10 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "http://{{host}}/api/categories",
 							"protocol": "http",
@@ -469,19 +464,16 @@
 								{
 									"key": "title",
 									"value": "test title",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "body",
 									"value": "test body",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "category_id",
 									"value": "1",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -526,19 +518,16 @@
 								{
 									"key": "title",
 									"value": "changetitle",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "body",
 									"value": "changebody",
-									"description": "",
 									"type": "text"
 								},
 								{
 									"key": "category_id",
 									"value": "2",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -567,11 +556,40 @@
 			]
 		},
 		{
+			"name": "微信接口",
+			"description": "",
+			"item": [
+				{
+					"name": "微信发送验证码",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://{{host}}/api/VerificationWeChatCodes",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"VerificationWeChatCodes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "天气接口",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://www.weather.com.cn/data/sk/101010100.html",
 					"protocol": "http",
@@ -602,7 +620,6 @@
 						{
 							"key": "phone",
 							"value": "18324254558",
-							"description": "",
 							"type": "text"
 						}
 					]

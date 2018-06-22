@@ -17,6 +17,7 @@ $api->version('v1', [
         // 短信验证码
         $api->post('verificationCodes', 'VerificationCodesController@store')
             ->name('api.verificationCodes.store');
+
         // 用户注册
         $api->post('users', 'UsersController@store')
             ->name('api.users.store');
@@ -35,6 +36,11 @@ $api->version('v1', [
 	     // 删除token
 		  $api->delete('authorizations/current', 'AuthorizationsController@destroy')
 			    ->name('api.authorizations.destroy');
+
+        //微信
+                    // 微信短信验证码 不走图形验证
+        $api->post('verificationWeChatCodes', 'VerificationWeChatCodesController@store')
+             ->name('api.VerificationWeChatCodes.store');
 
 
     });
