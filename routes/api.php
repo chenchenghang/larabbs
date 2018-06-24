@@ -41,6 +41,8 @@ $api->version('v1', [
                     // 微信短信验证码 不走图形验证
         $api->post('verificationWeChatCodes', 'VerificationWeChatCodesController@store')
              ->name('api.VerificationWeChatCodes.store');
+        $api->post('signin', 'WeChatSigninController@store')
+             ->name('api.WeChatSigninController.store');
 
 
     });
