@@ -9,7 +9,7 @@ use App\Models\Image;
 use App\Transformers\UserTransformer;
 class UsersController extends Controller
 {
-    public function store(UserRequest $request)
+    public function store(UserRequest $request) 
     {
         $verifyData = \Cache::get($request->verification_key);
 
